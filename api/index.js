@@ -28,7 +28,6 @@ const corsOptions = {
     allowedHeaders: 'Origin,X-Requested-With,Content-Type,Accept,Authorization',
 };
 app.use(cors(corsOptions));
-VITE_MONGO_URL = "mongodb+srv://dreambnb:XmfI0sG56Qz2AU7l@cluster0.ovzjxy2.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(VITE_MONGO_URL);
 
 const jwtSecret = 'fasfjhgkjhjk'
